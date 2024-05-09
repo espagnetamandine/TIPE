@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset="utf-8">
+ <!-- <meta name="viewport" content="width=device-width"> -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
+  <title>TIPE - ESPAGNET et GRAMOND - La Nav Simple</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<h1 id="mon_ancre">La Nav simple</h1>
+  <marquee scrollamount="10"> ----------------------- Bonjour et Bienvenue ! Ce site va vous aider à organiser vos
+    vols ! - Résultat du TIPE de ESPAGNET Amandine et GRAMOND Emma, 2023/24 -----------------------</marquee>
+  <h3>Cadre d'étude :</h3>
+  <img id="img1" src="photos/da20_c1_bis.jpg" alt="Photo avion particulier"/>
+  <img id="img2" src="photos/zoom_embouchure_de_la_gironde_bis.png" 
+  alt="Partie de la zone étudiée : zoom sur bordeaux" />
+
+  <ul>
+    <li>avion : DA20-C1</li>
+    <li>zone géographique : Gironde </li>
+  </ul>
+
+  <div id="nav">
+    <p>L'algorithme développé par nos informaticiens vous propose la navigation suivante pour aller de ___ à ___, </p>
+    <!-- ici faire des input pour recupérer le texte rentré par l'utilisateur -->
+  </div>
+
+  
+  <div id="div2">
+    <input type="button" onclick="lanceralgo()" value="Lancer le calcul" class="button">
+  </div>
+
+<!-- <py-script>print("hello les petits fous")
+  x = 18
+  print(x)
+</py-script>
+
+  <py-script>print(x)</py-script> -->
+  
+  <table id="tab">
+    <tr>
+      <th> <strong> Points tournant</strong></th>
+    </tr>
+  </table>
+  <table id="tab2">
+    <br></br>
+    <tr>
+      <th> <strong> Cap</strong></th>
+      <th> <strong>Vent</strong> </th>
+      <th> <strong>Temps estimé</strong> </th>
+      <th> <strong>Fréquence radio</strong></th>
+      <th> <strong>Carburant</strong></th>
+    </tr>
+  </table>
+
+
+  <div id="graphe">
+    <!-- a faire -->
+  </div>
+  <!-- script src="script.js"></script> -->
+
+</body>
+
+<footer>
+  <a href="#mon_ancre">Aller vers le haut de la page</a>
+</footer>
+
+</html>
+
+
+
+<!-- tous les liens utiles : 
+1- base html
+https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics#images
+2- 1ere idée python
+https://korben.info/code-python-dans-html.html
+2 bis- doc 
+https://pyscript.net/
+3- 2eme idée python
+https://korben.info/javascript-python-brython.html
+3 bis - exemples ( inspecter code source ce la page)
+https://brython.info/gallery/gallery_en.html?source=korben.info
