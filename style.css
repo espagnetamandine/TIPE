@@ -1,0 +1,45 @@
+body {
+    text-align: center; 
+}
+
+#mon_ancre {
+  text-align: center;
+}
+h1 {
+    text-align : center;
+    color: black;
+    width: 1em;
+    height: 1em;
+    display : inline;
+  }
+
+  #img1 {
+    width: 50%;
+    float: left;
+  }
+  #img2 {
+    width: 50%;
+    float: right;
+  }
+
+  #div2 {
+    text-align: center;
+  }
+
+  #tab{
+    width: "10%";
+  }
+  #tab2 {
+    width: "90%";
+    text-align: "right";
+  }
+  
+  td, th {
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
