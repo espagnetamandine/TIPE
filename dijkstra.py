@@ -1,4 +1,7 @@
 import numpy as np
+A = [ [], [], [] ] # chaque tab represente une ligne de la matrice
+ #creer une liste de la matrice d'adjacence du graphe, à chercher comment faire 
+ # 
 def dijkstra (sommets, aretes, sommet_depart):
     # On initialise les distances a l'infini
     distances = [np.inf] * len(sommets)
@@ -21,6 +24,6 @@ def dijkstra (sommets, aretes, sommet_depart):
             distances[voisin] = min(distances[voisin], distances[t] + A[t][voisin]) 
             # On a visite le sommet actuel
             sommets_visites.append(t)
-            
+
     # On retourne les distances au sommet de depart de tous les sommets du graphe
     return distances 
