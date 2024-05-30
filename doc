@@ -1,0 +1,27 @@
+Pondérations 
+0 (pire) - 1 (meilleur)
+
+-> distance
+Prendre en compte la distance entre deux points en km
+
+-> temps
+Prendre en compte la distance en min entre deux points 
+(entre 3 et 60 min, 3 étant le meilleur donc aura une pondération de 1)
+
+-> angle de dérivation
+coef = 1 - angle
+l’angle est obtenu avec formule maths / schémas carnet 
+
+ 
+->aérodrome
+1 si le point est un aérodrome, 0 sinon
+
+
+->zone à éviter
+Zone à éviter définies par des réglementations officielles (village = 0.2, Bdx = 0.7…)
+
+
+
+(->essence
+plus le temps passe, plus on consomme d’essence, moins l’avion est lourd, meilleur c’est 
+)
